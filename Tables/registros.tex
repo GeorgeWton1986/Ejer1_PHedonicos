@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{threeparttable}
+\usepackage{dcolumn}
+\usepackage{adjustbox}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in, paperwidth=14in, paperheight=10in]{geometry}
+\pagestyle{empty}
+\begin{document}
+\setcounter{table}{0}
+\begin{table}[htbp]
+\centering
+\footnotesize
+
+\caption{Primeros 5 registros de la base de datos}
+\begin{tabular}[t]{rrrrrrrrrrrrrrrr}
+\toprule
+crim & zn & indus & chas & nox & rm & age & dis & rad & tax & ptratio & lstat & medv & black & rm2 & lmedv\\
+\midrule
+0.01 & 18 & 2.31 & 0 & 0.54 & 6.57 & 65.2 & 4.09 & 1 & 296 & 15.3 & 4.98 & 24.0 & 396.90 & 7 & 3.18\\
+0.03 & 0 & 7.07 & 0 & 0.47 & 6.42 & 78.9 & 4.97 & 2 & 242 & 17.8 & 9.14 & 21.6 & 396.90 & 6 & 3.07\\
+0.03 & 0 & 7.07 & 0 & 0.47 & 7.18 & 61.1 & 4.97 & 2 & 242 & 17.8 & 4.03 & 34.7 & 392.83 & 7 & 3.55\\
+0.03 & 0 & 2.18 & 0 & 0.46 & 7.00 & 45.8 & 6.06 & 3 & 222 & 18.7 & 2.94 & 33.4 & 394.63 & 7 & 3.51\\
+0.07 & 0 & 2.18 & 0 & 0.46 & 7.15 & 54.2 & 6.06 & 3 & 222 & 18.7 & 5.33 & 36.2 & 396.90 & 7 & 3.59\\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{document}
