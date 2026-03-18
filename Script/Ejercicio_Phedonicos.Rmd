@@ -375,8 +375,7 @@ El cáculo del valor de Lambda optimo es de 0.2626263, luego la disponibilidad a
 
 
 ### e. Estimar la DAP
-Estime la DAP por la reducción en contaminación de 0.05 de la política bajo la
-especificación del punto b.
+Estime la DAP por la reducción en contaminación de 0.05 de la política bajo la especificación del punto b.
 
 Respuesta:
 DAP por una vivienda es igual a -18.40 x 0.05 = 0.92 dolares de 1970. Ahora, para un conjunto de viviendas (100,000 viviendas) la DAP total es igual a -0.92 x 100,000 = 92,000 dólares de 1970. Lo anterior, se interpreta como los compradores estan dispuesto a pagar 92 mil dolares por la reduccion de 0.05 partes por 10 millones de NOx en una región que posee 100 mil viviendas.
